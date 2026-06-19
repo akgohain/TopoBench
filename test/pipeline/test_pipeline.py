@@ -6,8 +6,8 @@ import pytest
 from test._utils.simplified_pipeline import run
 
 
-DATASET = "graph/MUTAG"  # ADD YOUR DATASET HERE
-MODELS = ["graph/gcn", "cell/topotune", "simplicial/topotune"]  # ADD ONE OR SEVERAL MODELS
+DATASET = "graph/MUTAG"
+MODELS = ["graph/sgformer"]
 
 
 class TestPipeline:
